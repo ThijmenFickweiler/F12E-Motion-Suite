@@ -1,18 +1,33 @@
 # F12E-Motion-Suite
-The F12E's Motion Suite is the official control and configuration package for the **F12 Engineering's Motion Series Drivers**.
+
+The F12E Motion Suite is the official control and configuration package for the **F12 Engineering Motion Series Drivers**.
+
 ---
+
 ## Features
-The suite offers a bunch of different features and tools to help ease and make you spend less time with motor controls.
-### Firmware updating
-Keep you're drive up-to-date with build in official firmware updates.
+
+The suite offers a variety of tools and features to simplify motor control configuration and reduce setup time.
+
+### Firmware Updating
+
+Keep your drive up to date with built-in official firmware updates.
+
 ### Blackbox
-Keep in eye of you're drives malfunctions or errors with logging from overcurrent trips to abnormal accelerations.
-### Configurable flags
-With the suite you can alter a ton of different flags like trip current, bus voltages and drive frequency.
+
+Monitor drive malfunctions and errors with logging for overcurrent trips, abnormal accelerations, and more.
+
+### Configurable Flags
+
+Adjust a wide range of parameters such as trip current, bus voltage limits, and drive frequency.
+
 ### Software Control
-Be able to test you're configurations with software control to drive the output and test for voltage spikes, noise and more.
+
+Test configurations directly through software control to inspect voltage spikes, noise, and output behavior.
+
 ---
-## Compatibility of drives and features
-|Drive PrNum|Feat 1|Feat 2|
-|-----------|------|------|
-|BDC|✅|❌|
+
+## Compatibility of Drives and Features
+
+| Drive PrNum | Feat 1 | Feat 2 |
+|-------------|---------|---------|
+| BDC | ✅ | ❌ |
