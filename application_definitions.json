@@ -1,0 +1,46 @@
+{
+  "ide_tree": {
+    "Busses": {
+      "primary_bus_voltage": [],
+      "primary_bus_trip_current": [],
+      "secondary_bus_frequency": []
+    },
+    "Communication": {
+      "interface_card": []
+    }
+  },
+  "supported_products": {
+    "F12E-MS1-BDC-C2A10V60": {
+      "product_line": "Motion Series 1",
+      "features": {
+        "max_supply_voltage": 60,
+        "max_channel_current": 10,
+        "channel_count": 2,
+        "channel_ids": ["pd0", "pd1"],
+        "bus_architecture": "two_stage"
+      },
+      "enabled_features": [
+        "primary_bus_voltage",
+        "primary_bus_trip_current",
+        "secondary_bus_frequency",
+        "interface_card"
+      ]
+    },
+    "F12E-MS1-BLDC-C2A15V60": {
+      "product_line": "Motion Series 2",
+      "features": {
+        "max_supply_voltage": 60,
+        "max_channel_current": 15,
+        "channel_count": 2,
+        "channel_ids": ["pa0", "pa1"],
+        "bus_architecture": "two_stage"
+      },
+      "enabled_features": [
+        "primary_bus_voltage",
+        "primary_bus_trip_current",
+        "secondary_bus_frequency",
+        "interface_card"
+      ]
+    }
+  }
+}
